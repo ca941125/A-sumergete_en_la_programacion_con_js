@@ -5,16 +5,23 @@
 // parrafo.innerHTML = 'Indica un número del 1 al 10: ';
 
 let numeroSecreto = generarNumeroSecreto();
-// console.log(numeroSecreto);
+
+ 
+
 function asignarTextoElemento(elemento, texto){
     let elementoHTML = document.querySelector(elemento);
     elementoHTML.innerHTML = texto;
     return
 }
 
-function intentoDeUsuario(){
-    alert('Click desde el botón');
-    return
+function verificarIntento(){
+    let numeroDeUsuario = parseInt(document.getElementById('valorUsuario').value);
+    console.log(typeof(numeroDeUsuario));
+    console.log(numeroSecreto);
+    console.log(typeof(numeroSecreto));
+    console.log(numeroDeUsuario);
+    console.log(numeroSecreto == numeroDeUsuario);
+    return;
 }
 
 function generarNumeroSecreto() {
