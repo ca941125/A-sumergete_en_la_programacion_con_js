@@ -7,8 +7,7 @@ function asignarTextoElemento(elemento, texto){
 }
 
 function verificarIntento(){
-    let numeroDeUsuario = parseInt(document.getElementById('valorUsuario').value);
-    
+    let numeroDeUsuario = parseInt(document.getElementById('valorUsuario').value) 
     if (numeroDeUsuario === numeroSecreto){
         asignarTextoElemento('p', 'Acertaste el número');
     } else {
@@ -27,4 +26,3 @@ function generarNumeroSecreto() {
 
 asignarTextoElemento('h1', 'Juego del número secreto');
 asignarTextoElemento('p', 'Indica un número del 1 al 10: ');
-
