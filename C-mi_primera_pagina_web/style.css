@@ -1,0 +1,10 @@
+body{
+    background-color: rgb(255, 197, 255);
+}
+p{
+    font-size: 20px;
+}
+
+em strong{
+    color: brown;
+}
