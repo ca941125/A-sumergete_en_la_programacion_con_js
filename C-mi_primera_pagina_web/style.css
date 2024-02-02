@@ -1,8 +1,17 @@
 body{
     background-color: rgb(255, 197, 255);
 }
+
+h1{
+    text-align: center;
+}
+
 p{
     font-size: 20px;
+}
+
+#mision{
+    font-size: 24px;
 }
 
 em strong{
