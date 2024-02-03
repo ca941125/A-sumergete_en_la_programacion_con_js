@@ -1,11 +1,15 @@
-body{
-    background-color: rgb(255, 197, 255);
-}
+/* body{
+
+} */
 
 #banner{
     width: 100%;
-    
 }
+
+.principal{
+    background-color: rgb(255, 197, 255);
+}
+
 h1{
     text-align: center;
     height: 150px;
@@ -24,4 +28,10 @@ p{
 
 em strong{
     color: brown;
+}
+.diferenciales{
+    background-color: white;
+}
+.items{
+    font-style: italic;
 }
