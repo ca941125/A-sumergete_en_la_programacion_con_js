@@ -8,6 +8,7 @@
 
 .principal{
     background-color: rgb(255, 197, 255);
+    padding: 20px;
 }
 
 h1{
@@ -31,7 +32,24 @@ em strong{
 }
 .diferenciales{
     background-color: white;
+    padding: 20px;
 }
+
+h2{
+    text-align: center;
+}
+
 .items{
     font-style: italic;
+}
+
+ul{
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+
+.imagenDiferenciales{
+    width: 50%;
 }
