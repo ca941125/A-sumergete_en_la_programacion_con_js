@@ -31,17 +31,20 @@ nav li{
 nav a{
     text-transform: uppercase;
     color: white;
-     
     text-decoration: none;
     font-size: 18px;
     font-family: sans-serif;
+}
+
+nav a:hover{
+    color: #F2865E;
 }
 
 /* MAIN */
 .productos{
     width: 70%;
     margin: 0 auto;
-    padding: 50px;
+    padding: 20px 50px;
 }
 
 .productos li{
@@ -50,16 +53,28 @@ nav a{
     width: 30%;
     vertical-align: top;
     margin: 0 1.5%;
-    padding: 30px 20px;
+    padding:  20px;
     box-sizing: border-box;
-    border: 2px solid #011126;
+    border: 2px solid #3C3940;
     border-radius: 30px;
+}
+
+.productos li:hover{
+    border-color: #F2865E;
+}
+
+.productos li:active{
+    border: 3px solid #011126;
 }
 
 .productos h2{
     font-size: 26px;
     font-family: sans-serif;
     font-weight: bold;
+}
+
+.productos li:hover h2{
+    font-size: 28px;
 }
 
 .producto-descripcion{
