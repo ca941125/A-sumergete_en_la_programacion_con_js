@@ -7,7 +7,7 @@
 
 /* HEADER */
 header{
-    background-color: #3C3940;
+    background-color: #011126;
     padding: 10px 0;
 }
 
@@ -85,4 +85,21 @@ nav a:hover{
     font-size: 20px;
     font-weight: bold;
     padding: 10px;
+}
+
+/* FOOTER */
+
+footer{
+    text-align: center;
+    background-color: #011126;
+    color: white;
+    padding: 40px;
+}
+
+footer img{
+    width:10%;
+}
+.copyright{
+    font-size: 13px;
+    margin: 10px;
 }
