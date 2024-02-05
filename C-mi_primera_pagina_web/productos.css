@@ -1,0 +1,38 @@
+/* Color Theme Swatches in Hex */
+.GALLITO-BARBÓN-1-hex { color: #3C3940; }
+.GALLITO-BARBÓN-2-hex { color: #011126; }
+.GALLITO-BARBÓN-3-hex { color: #F2865E; }
+.GALLITO-BARBÓN-4-hex { color: #8C5C4A; }
+.GALLITO-BARBÓN-5-hex { color: #F2A488; }
+
+header{
+    background-color: #3C3940;
+    padding: 10px 0;
+}
+
+.caja{
+    position: relative;
+    margin: 0 auto;
+    width: 70%;
+}
+
+nav{
+    position: absolute;
+    top: 60px;
+    right: 0;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: white;
+     
+    text-decoration: none;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
