@@ -5,6 +5,7 @@
 .GALLITO-BARBÓN-4-hex { color: #8C5C4A; }
 .GALLITO-BARBÓN-5-hex { color: #F2A488; }
 
+/* HEADER */
 header{
     background-color: #3C3940;
     padding: 10px 0;
@@ -36,3 +37,37 @@ nav a{
     font-family: sans-serif;
 }
 
+/* MAIN */
+.productos{
+    width: 70%;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.productos li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #011126;
+    border-radius: 30px;
+}
+
+.productos h2{
+    font-size: 26px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.producto-descripcion{
+    font-size: 18px;
+}
+
+.producto-precio{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+}
