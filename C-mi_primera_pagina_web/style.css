@@ -5,68 +5,101 @@
 .GALLITO-BARBÓN-4-hex { color: #8C5C4A; }
 .GALLITO-BARBÓN-5-hex { color: #F2A488; }
 
-body{
-    margin: 10px 50px 0;
-}
-
+/* HEADER */
 header{
     background-color: #011126;
-    padding: 1px;
+    padding: 10px 0;
 }
-.titulo-principal{
-    margin: 10px;
-    text-align: center;
+
+.caja{
+    position: relative;
+    margin: 0 auto;
+    width: 70%;
+}
+
+nav{
+    position: absolute;
+    top: 60px;
+    right: 0;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a{
+    text-transform: uppercase;
     color: white;
-    padding: 10px;
-    outline: 1px solid #F2A488;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: sans-serif;
 }
 
-#banner{
-    width: 100%;
-    padding: 5px 0;
-}
-
-.principal{
-    background-color:#011126;
-    padding: 20px;
-    color: white;
-    outline: 1px solid #F2A488;
-    outline-offset: -10px;
-}
-
-p{
-    font-size: 20px;
-}
-
-#mision{
-    font-size: 24px;
-    text-align: center;
-}
-
-em strong{
+nav a:hover{
     color: #F2865E;
 }
 
-.diferenciales{
-    background-color: white;
-    padding: 20px;
+/* MAIN */
+.productos{
+    width: 70%;
+    margin: 0 auto;
+    padding: 20px 50px;
 }
 
-.titulo-centralizado{
-    text-align: center;
-}
-
-.items{
-    font-style: italic;
-}
-
-ul{
+.productos li{
     display: inline-block;
+    text-align: center;
+    width: 30%;
     vertical-align: top;
-    width: 20%;
-    margin-right: 15%;
+    margin: 0 1.5%;
+    padding:  20px;
+    box-sizing: border-box;
+    border: 2px solid #3C3940;
+    border-radius: 30px;
 }
 
-.imagenDiferenciales{
-    width: 50%;
+.productos li:hover{
+    border-color: #F2865E;
+}
+
+.productos li:active{
+    border: 3px solid #011126;
+}
+
+.productos h2{
+    font-size: 26px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.productos li:hover h2{
+    font-size: 28px;
+}
+
+.producto-descripcion{
+    font-size: 18px;
+}
+
+.producto-precio{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+/* FOOTER */
+
+footer{
+    text-align: center;
+    background-color: #011126;
+    color: white;
+    padding: 40px;
+}
+
+footer img{
+    width:10%;
+}
+.copyright{
+    font-size: 13px;
+    margin: 10px;
 }
