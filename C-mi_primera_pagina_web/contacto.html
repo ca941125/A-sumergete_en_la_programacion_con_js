@@ -11,7 +11,7 @@
     <header>
       <div class="caja">
         <h1>
-          <img src="imagenes/logo-blanco.png" width="10%" alt="">
+          <img src="imagenes/logo-blanco.png" width="10%" alt="Logo de la Barberia Alura">
         </h1>
         <nav>
           <ul>
@@ -43,48 +43,48 @@
           required
         ></textarea>
 
-        <div>
-          <p>¿Cómo le gustaría que lo contactemos?</p>
+        <fieldset>
+          <legend>¿Cómo le gustaría que lo contactemos?</legend>
 
           <label for="radio-email">
             <input
               type="radio"  name="contacto"  value="email"  id="radio-email"/>
               Email
-            </label>
+          </label>
 
           <label for="radio-telefono">
             <input
               type="radio"  name="contacto"  value="telefono"  id="radio-telefono"/>
               Teléfono
-            </label>
+          </label>
 
           <label for="radio-whatsapp">
             <input
               type="radio"  name="contacto"  value="whatsapp"  id="radio-whatsapp"  checked/>
               WhatsApp
-            </label>
-        </div>
+          </label>
+        </fieldset>
 
-        <div>
-          <p>¿En cuál horario prefiere ser atendido?</p>
+        <fieldset>
+          <legend>¿En cuál horario prefiere ser atendido?</legend>
           <select>
             <option>Mañana</option>
             <option>Tarde</option>
             <option>Noche</option>
           </select>
-        </div>
+        </fieldset>
 
         <label class="checkbox">
-          <input type="checkbox" checkbox/> 
-            Le gustaría recibir novedades de la Barbería Alura?
+          <input type="checkbox" checked/> 
+            ¿Le gustaría recibir novedades de la Barbería Alura?
           </label>
 
-        <input type="submit" value="Enviar formulario" />
+        <input class="enviar" type="submit" value="Enviar formulario" />
       </form>
     </main>
 
     <footer>
-      <img src="imagenes/logo-blanco.png" alt="">
+      <img src="imagenes/logo-blanco.png" alt="Logo de la Barberia Alura">
       <p class="copyright"> &copy Copyright Barberia Alura - 2024</p>
     </footer>
   </body>
