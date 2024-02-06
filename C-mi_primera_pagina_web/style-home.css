@@ -1,0 +1,72 @@
+/* Color Theme Swatches in Hex */
+.GALLITO-BARBÓN-1-hex { color: #3C3940; }
+.GALLITO-BARBÓN-2-hex { color: #011126; }
+.GALLITO-BARBÓN-3-hex { color: #F2865E; }
+.GALLITO-BARBÓN-4-hex { color: #8C5C4A; }
+.GALLITO-BARBÓN-5-hex { color: #F2A488; }
+
+body{
+    margin: 10px 50px 0;
+}
+
+header{
+    background-color: #011126;
+    padding: 1px;
+}
+.titulo-principal{
+    margin: 10px;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    outline: 1px solid #F2A488;
+}
+
+#banner{
+    width: 100%;
+    padding: 5px 0;
+}
+
+.principal{
+    background-color:#011126;
+    padding: 20px;
+    color: white;
+    outline: 1px solid #F2A488;
+    outline-offset: -10px;
+}
+
+p{
+    font-size: 20px;
+}
+
+#mision{
+    font-size: 24px;
+    text-align: center;
+}
+
+em strong{
+    color: #F2865E;
+}
+
+.diferenciales{
+    background-color: white;
+    padding: 20px;
+}
+
+.titulo-centralizado{
+    text-align: center;
+}
+
+.items{
+    font-style: italic;
+}
+
+ul{
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+
+.imagenDiferenciales{
+    width: 50%;
+}
