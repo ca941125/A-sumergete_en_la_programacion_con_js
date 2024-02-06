@@ -116,7 +116,7 @@ form{
     padding: 30px 0;
 }
 
-form label, form p{
+form label, form legend{
     display: block;
     font-size: 20px;
     margin: 0 0 10px;
@@ -133,3 +133,19 @@ form label, form p{
     margin: 20px 0;
 }
 
+.enviar{
+    position: relative;
+    right: 0;
+    width: 40%;
+    padding: 15px 0;
+    font-size: 18px;
+    color: white;
+    background-color: #8C5C4A;
+    border: none;
+    border-radius: 5px;
+    transition: 1s background;
+    cursor: pointer;
+}
+.enviar:hover{
+    background: #011126;
+}
