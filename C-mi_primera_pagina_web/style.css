@@ -5,7 +5,16 @@
 .GALLITO-BARBÓN-4-hex { color: #8C5C4A; }
 .GALLITO-BARBÓN-5-hex { color: #F2A488; }
 
-/* HEADER */
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/*PRODUCTOS*/
+
+/* HEADER PRODUCTOS*/
+
 header{
     background-color: #011126;
     padding: 10px 0;
@@ -42,7 +51,7 @@ nav a:hover{
     color: #F2865E;
 }
 
-/* MAIN */
+/* MAIN PRODUCTOS*/
 .productos{
     width: 90%;
     margin: 20px ;
@@ -89,7 +98,7 @@ nav a:hover{
     padding: 10px;
 }
 
-/* FOOTER */
+/* FOOTER PRODUCTOS*/
 
 footer{
     text-align: center;
@@ -107,7 +116,9 @@ footer img{
     margin: 10px;
 }
 
-/* Pag contactos */
+/* CONTACTOS */
+
+/* HEADER CONTACTOS */
 
 main {
     width: 70%;
@@ -165,4 +176,64 @@ thead {
 td, th {
     border: 1px solid #000000;
     padding: 8px 35px;
+}
+
+/* INDEX */
+
+#banner{
+    width: 100%;
+    padding: 5px 0;
+}
+
+.principal{
+    padding: 20px 100px;
+    outline: 1px solid #F2A488;
+    outline-offset: -10px;
+}
+
+.titulo-centralizado{
+    text-align: center;
+    padding: 0 20px;
+    margin: 20px;
+    font-size: 30px;
+}
+
+.principal p{
+    font-size: 20px;
+    font-family: sans-serif;
+    line-height: 25px;
+}
+.principal p strong{
+    font-weight: bold;
+}
+
+.principal #mision{
+    font-size: 24px;
+    text-align: center;
+    padding: 15px;
+    font-family: serif;
+    font-style: italic;
+}
+
+.principal em strong{
+    color: #F2865E;
+}
+
+.diferenciales{
+    background-color: white;
+    padding: 20px;
+}
+
+.items{
+    font-style: italic;
+}
+
+.imagenDiferenciales{
+    width: 50%;
+}
+.lista-diferenciales ul{
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
 }
