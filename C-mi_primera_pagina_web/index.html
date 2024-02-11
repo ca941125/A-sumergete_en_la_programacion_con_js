@@ -3,13 +3,26 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style-home.css">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
     <title>Barbería Alura</title>
   </head>
   <body>
     <header>
-      <h1 class="titulo-principal">Barberia Alura</h1>
+      <div class="caja">
+        <h1>
+          <img src="imagenes/logo-blanco.png" width="35%" alt="Logo de la Barberia Alura">
+        </h1>
+        <nav>
+          <ul>
+            <li> <a href="index.html">Home</a></li>
+            <li> <a href="productos.html">Productos</a></li>
+            <li> <a href="contacto.html">Contacto</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
+
     <img id="banner" src="imagenes/banner.jpg" alt="">
 
     <div class="principal">
@@ -39,7 +52,7 @@
 
     <div class="diferenciales">
       <h3 class="titulo-centralizado">Diferenciales</h3>
-      <ul>
+      <ul class="lista-diferenciales">
           <li class="items">Atención personalizada a los clientes</li>
           <li class="items">Espacio diferenciado</li>
           <li class="items">Localización</li>
