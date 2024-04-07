@@ -1,0 +1,133 @@
+/* Cabecera */
+.cabecera__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+}
+
+.cabecera__buscar__item{
+    display: none;
+}
+
+/* Menu lateral */
+
+.menu__container{
+    position: fixed;
+    bottom: 0%;
+    height: 75px;
+    width: 100%;
+}
+
+.menu__lista{
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+}
+
+.menu__lista li {
+    align-self: center;
+}
+
+.menu__itens{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.menu__lista:nth-child(2),
+.menu__lista:nth-child(3),
+.menu__lista:nth-child(4){
+    display: none;
+}
+
+/* Seccion superior */
+.superior__seccion__container{
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    overflow: scroll;
+    gap: 15px;
+}
+
+ /* Vídeos   */
+.videos__container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+ }
+.videos__item{
+    width: 25%;
+    padding: 15px;
+}
+
+/* Rodapie */
+.rodapie__container{
+    display: flex;
+}
+
+
+@media (min-width:834px) {
+
+    /* Cabecera */
+    .cabecera__buscar__item{
+        display: block
+    }
+
+    /* Desafío Menú Lateral */
+    .menu__container {
+        left: 0;
+        height: auto;
+        width: 74px;
+        top: 80px;
+    }
+
+    .menu__lista {
+        flex-direction: column;
+        justify-content: flex-start;
+        padding-top: 15px;
+        gap: 33px;
+    }
+
+    /* Rodapie */
+    .rodapie__container{
+        justify-content: space-between;
+    }
+}
+
+
+@media (min-width:1366px ){
+
+    .menu__container{
+        width: 239px;
+        overflow: scroll;
+    }
+    .menu__lista:nth-child(2),
+    .menu__lista:nth-child(3),
+    .menu__lista:nth-child(4){
+        display: flex;
+    }
+    .menu__lista{
+        height: auto;
+        padding: 20px 17px 20px 15px;
+        gap: 15px;
+    }
+    .menu__lista:nth-child(3){
+        flex-direction: column-reverse;
+    }
+    .menu__itens{
+        flex-direction: row;
+        gap: 15px;
+        align-items: center;
+    }
+    .videojuegos{
+        order: 3;
+    }
+    .peliculas{
+        order:2;
+    }
+    .premium{
+        order:1;
+    }
+}
